@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Nkosinathi Dhanda" />
+    <meta
+      name="description"
+      content="This is blog preview card, which takes you to an HTML & CSS article"
+    />
+    <title>Blog Preview Card</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <section class="section__card">
+      <figure class="section__card__hero">
+        <img
+          src="./images/illustration-article.svg"
+          alt="Programming Illustration"
+          width="336"
+          height="201"
+          loading="lazy"
+        />
+        <figcaption class="offscreen">Programming Illustration</figcaption>
+      </figure>
+
+      <section class="section__content">
+        <p class="section__content__category">Learning</p>
+        <p class="section__content__publish-date">
+          Published <time datetime="2023-12-21">21 Dec 2023</time>
+        </p>
+
+        <h1 class="section__content__title">
+          <a
+            href="https://www.tynker.com/blog/html-and-css-basics/"
+            target="_blank"
+            >HTML & CSS foundations</a
+          >
+        </h1>
+
+        <p class="section__content__description">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+      </section>
+
+      <section class="section__author">
+        <figure class="section__author__avatar">
+          <img
+            src="./images/image-avatar.webp"
+            alt="avatar"
+            width="65"
+            height="65"
+            loading="lazy"
+          />
+          <figcaption class="offscreen">Greg Hooper</figcaption>
+        </figure>
+
+        <p class="section__author__author-name nowrap">Greg Hooper</p>
+      </section>
+    </section>
+  </body>
+</html>
